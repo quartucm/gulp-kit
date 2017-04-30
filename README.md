@@ -9,7 +9,7 @@ To get started, make sure you have installed Node and NPM.
 **Scripts**
  1. src/javascripts/app.js is your main scripts file, this project is using ES6 modules. Create new modules in modules. You will have to import in your modules into app.js and call them as needed.
  2. jQuery.js is using an ES6 class to mimic some jQuery functions (addClass, each and attribute modification)
- 3. math.js is using 4 functions to do basic math libraries. Each function is being exported so we can use them. We load all 4 functions in as 'Calculator' and call them as needed in app.js
+ 3. math.js is using 4 functions to do basic math. We are exporting 1 default Calculator object that we can call in app.js
 
 **Testing**
 

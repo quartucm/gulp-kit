@@ -1,4 +1,4 @@
-import * as Calculator from '../modules/math'
+import Calculator from '../modules/math'
 
 describe('math.js', () => {
   it('should add the numbers', () => {

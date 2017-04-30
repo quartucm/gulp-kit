@@ -2,7 +2,7 @@ import './modules'
 //import our jQuery Clone from jquery module
 import jQueryClone from './modules/jquery'
 //Import ALL math problems here
-import * as Calculator from './modules/math'
+import Calculator from './modules/math'
 
 //1. Add Class without using jQuery
 const div = document.getElementById('addClassDiv');
@@ -21,7 +21,7 @@ const myAttr = new jQueryClone(document.getElementById('addAnAttr'));
 myAttr.attr('id', 'justAdded');
 
 
-//MATH Problem, Importing all Math functions as Calculator parent above. Check the tests in javascripts/__tests__
+//MATH Problem, Importing Math obj as Calculator parent above. Check the tests in javascripts/__tests__
 console.log(Calculator.add(10,20));
 console.log(Calculator.subtract(20, 10));
 console.log(Calculator.multiply(10,20));
