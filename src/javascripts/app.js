@@ -13,7 +13,7 @@ showItem.addClass('show');
 const myArray = new jQueryClone([1,2,3,4,5,6]);
 //Change this to alert for fun.
 myArray.each(function( i, l ){
-  console.log( "Index #" + i + ": " + l );
+  console.log( "Index" + i );
 });
 
 //3. jQuery Set an Attribute
