@@ -22,7 +22,13 @@ To get started, make sure you have installed Node and NPM.
  
  1.  We are using SASS for our styles here
 
-Additional Documentation from the Project below:
+ **To Do**
+
+We could certainly add some better test coverage for the Jquery Library and improve the math cover as well.
+The code could benefit from some better error checking in the case of missing arguments. The jQUery each could be extended to iterate over objects, it currently only iterates over arrays.
+
+
+Additional Documentation from the Starter Project below:
 
 --
 

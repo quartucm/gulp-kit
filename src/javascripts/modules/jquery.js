@@ -8,7 +8,7 @@ export default class jQueryClone {
    this.elem.classList.add(className);
    return this;
   }
-   each(callback) {
+  each(callback) {
     if (Array.isArray(this.elem)) {
       let length = this.elem.length;
 
